@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Activity" />
+
+    <Button
+        android:id="@+id/btFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Fragment" />
+
+    <Button
+        android:id="@+id/btScreenA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Screen A" />
+
+    <Button
+        android:id="@+id/btScreenB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Screen B" />
+
+    <Button
+        android:id="@+id/btScreenC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Screen C" />
+
+    <Button
+        android:id="@+id/btScreenD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Screen D" />
+
+    <Button
+        android:id="@+id/btScreenE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Screen E" />
+
+    <Button
+        android:id="@+id/btScreenF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Screen F" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
